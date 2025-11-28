@@ -48,18 +48,22 @@ The negative sign in gain indicates a **phase shift of 180°**.
 Acl = -RF/R1
 
 PIN DIAGRAM
-<img width="624" height="269" alt="image" src="https://github.com/user-attachments/assets/635c9837-d5f5-4d6f-acc9-8a47a4368230" />
+![019](https://github.com/user-attachments/assets/d1110441-b19c-4322-9537-81b6e064deee)
 
 CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
-<img width="779" height="440" alt="image" src="https://github.com/user-attachments/assets/a14d8bc1-9dc7-4a49-98b0-f5320f450a63" />
+![001](https://github.com/user-attachments/assets/e389de27-b6aa-4eb5-8d3b-01184b9fea4f)
+
 
 MODEL GRAPH 
 
-<img width="543" height="357" alt="image" src="https://github.com/user-attachments/assets/1836d120-768e-454f-bfe4-682ce70ea7a1" />
+![002](https://github.com/user-attachments/assets/24eb3134-b1e4-47b9-9f8c-39a326ef17c7)
+
 
 
 
 DESIGN:
+![011](https://github.com/user-attachments/assets/fe5f84e8-7153-4973-bf10-4fab5e7602c3)
+
 
 Inverting amplifier:
 
@@ -82,17 +86,15 @@ Inverting amplifier:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
+![003](https://github.com/user-attachments/assets/8bfc5f23-9456-4523-86b0-c0e11f172b30)
+
  
 
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![004](https://github.com/user-attachments/assets/528d9885-3955-4d33-895f-2244eae82b1b)
 
 ---
 ### **Non-Inverting Amplifier**
@@ -108,14 +110,18 @@ ACL = 1 + RF/R1
 
 ## CIRCUIT DIAGRAM
 
+![005](https://github.com/user-attachments/assets/321d3e11-a13d-4495-a565-9ad615344240)
 
-<img width="704" height="397" alt="image" src="https://github.com/user-attachments/assets/1b4b170f-cf21-4fa9-9dc7-96db30b3c153" />
 
 ---
 
 ## MODEL GRAPH
+![006](https://github.com/user-attachments/assets/f47e339d-bec2-4da7-a479-17893d1ddc36)
 
-<img width="456" height="340" alt="image" src="https://github.com/user-attachments/assets/00c7aaec-b4d8-414e-afa3-e985eb3dd902" />
+DESIGN:
+![012](https://github.com/user-attachments/assets/46fb5abc-f189-4cf2-b011-9afa950381f2)
+
+
 
 ---
 PROCEDURE:
@@ -130,15 +136,12 @@ PROCEDURE:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![007](https://github.com/user-attachments/assets/858f6bcd-2f27-4687-a89e-5031149589d2)
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![008](https://github.com/user-attachments/assets/f568e226-8289-4916-95d2-10f01f83d75c)
 
 ---
 ## DIFFERENTIAL AMPLIFIER
@@ -150,14 +153,17 @@ If the two input signals are identical, the output is ideally **zero**.
 
 A = Vo/{V2 - V1} = -Rf/R1
 ## CIRCUIT DIAGRAM
-<img width="706" height="522" alt="image" src="https://github.com/user-attachments/assets/917f2544-3735-4a23-a9b7-1264966d0d20" />
+![009](https://github.com/user-attachments/assets/7789e503-9034-4440-b708-5b984e02c84e)
+
 
 ## MODEL GRAPH
-<img width="678" height="334" alt="image" src="https://github.com/user-attachments/assets/6aa1b9dd-b112-4be1-a37a-d5ee19607b1d" />
+![010](https://github.com/user-attachments/assets/7f338d3e-fb8c-4ef9-b80d-fe0b766b2023)
+
 
 ---
 
 ## DESIGN
+![013](https://github.com/user-attachments/assets/d0fd6bac-8847-4ae1-9c11-eea95c4a207e)
 
 
 ### **Differential Amplifier**
@@ -186,15 +192,12 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 
 ## TABULATION (Differential Amplifier)
 
-| S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
-|------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![014](https://github.com/user-attachments/assets/1fd98c66-b378-4860-b2e0-38ebe285b2ec)
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![015](https://github.com/user-attachments/assets/0784824b-dece-41f6-b6d2-8dc69c780184)
 
 ---
 ## INSTRUMENTATION AMPLIFIER
@@ -208,8 +211,8 @@ Vo = RF/R1[1+ 2R’/R][V2-V1]
  
 
 ## CIRCUIT DIAGRAM: INSTRUMENTATION AMPLIFIER
+![016](https://github.com/user-attachments/assets/e9ca8df2-073f-44cf-9865-6006ed9753f2)
 
-<img width="1006" height="1087" alt="image" src="https://github.com/user-attachments/assets/636c08f9-7940-470e-a89e-4891d57a9ac7" />
 
 PROCEDURE:
 
@@ -224,16 +227,13 @@ PROCEDURE:
 ---
 
 ## TABULATION (Instrumentation Amplifier)
+![017](https://github.com/user-attachments/assets/56e992d6-f517-4b23-b19b-dc6bdfc96371)
 
-| S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
-|------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![018](https://github.com/user-attachments/assets/b3d35d73-9c15-42b9-b05f-6dc41faab270)
 
 ---
 ## RESULT
