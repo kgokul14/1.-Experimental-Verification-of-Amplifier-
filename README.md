@@ -234,7 +234,8 @@ PROCEDURE:
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
-![018](https://github.com/user-attachments/assets/b3d35d73-9c15-42b9-b05f-6dc41faab270)
+![WhatsApp Image 2025-11-28 at 17 33 00_c26e2697](https://github.com/user-attachments/assets/28f1e633-ad87-42ef-bf29-2eb7b8536c07)
+
 
 ---
 ## RESULT
